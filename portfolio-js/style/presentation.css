@@ -1,0 +1,30 @@
+.presentation{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column-reverse;
+}
+.presentation div{
+    width: 100%;
+}
+.presentation-text{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+} 
+.presentation-text h2 {
+    font-size: clamp(2rem, 4vw, 2.5rem);
+}
+.presentation-text span{
+    font-size: clamp(1.5rem, 3vw, 2rem);
+}
+.presentation-background{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.presentation-background span{
+    font-size: clamp( 1.5rem, 6vw, 6rem);
+    z-index: -1;
+    color: rgba(0, 0, 0, 0.3);
+}
